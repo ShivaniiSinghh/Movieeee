@@ -1,0 +1,20 @@
+:root {
+    --back-color: #89c581;
+    --primary-color: #74b554;
+    --header-back: #4cba44;
+    --header-text: #eee;
+}
+
+body {
+    background-color: var(--back-color);
+    color: green;
+}
+
+header {
+    background-color: var(--header-back);
+    color: var(--header-text);
+}
+
+.box img {
+    border: 2px solid var(--primary-color);
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite Movie</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./themes/main.css">
+    <link rel="stylesheet" id="switcher-id" href="">
+</head>
+
+<body>
+    <header>
+        <form action="">
+            <h3>SEARCH YOUR FAVOURITE MOVIES</h3>
+            <input type="text" class="form-control" placeholder="Search Movie Title ..." id="movie-search-box"
+                onkeyup="findMovies()" onclick="findMovies()">
+            <button>Search</button>
+
+        </form>
+        <div class="theme-switches">
+            <div data-theme="light" class="switch" id="switch-1"></div>
+            <div data-theme="pink" class="switch" id="switch-2"></div>
+            <div data-theme="sky" class="switch" id="switch-3"></div>
+            <div data-theme="green" class="switch" id="switch-5"></div>
+            <div data-theme="dark" class="switch" id="switch-4"></div>
+        </div>
+    </header>
+
+    <script src="./themes/script.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
